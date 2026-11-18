@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.submit_contact_message(text, text, text, text, text);

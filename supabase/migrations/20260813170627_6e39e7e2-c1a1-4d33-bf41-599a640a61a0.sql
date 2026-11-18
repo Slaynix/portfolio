@@ -1,0 +1,1 @@
+UPDATE public.education SET achievements = '{}' WHERE id = '5cdb97a1-e9db-4774-b134-f3b2e960175b';

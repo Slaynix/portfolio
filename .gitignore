@@ -26,7 +26,7 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# Keep bun.lock as the project lockfile; ignore alternative lockfiles
+# Package manager lockfiles (keep bun.lock as the project lockfile)
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
