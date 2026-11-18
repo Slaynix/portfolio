@@ -10,6 +10,17 @@ A content-driven personal portfolio built with React, TypeScript, TanStack Start
 - Private manager dashboard for portfolio content and media.
 - Supabase migrations maintained in `supabase/migrations/`.
 
+## Bundled portfolio media
+
+The following files are stored in `public/media/` and are referenced with root-relative URLs, so Vite serves them correctly after deployment:
+
+- `sanskar-profile.webp` — hero profile portrait.
+- `certificate-programming-skills-c-cpp.jpg` — C/C++ course certificate.
+- `certificate-quizoff-2026.jpg` — QuizOff 2026 participation certificate.
+- `sanskar-girase-resume.pdf` — résumé shown in the Credentials section.
+
+The bundled résumé and certificates are displayed by default; any additional published certificate records from Supabase are retained. The bundled portrait is used as the hero portrait.
+
 ## Requirements
 
 - Node.js 22 or later
